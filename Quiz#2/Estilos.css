@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+.header {
+    background-color: #d9e9e8;
+    padding: 50px 20px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 36px;
+    color: #333;
+}
+.header p {
+    font-size: 18px;
+    color: #666;
+}
+.search-bar {
+    margin-top: 20px;
+}
+.search-bar input {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    width: 200px;
+}
+.search-bar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #85bdb8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.search-bar button:hover {
+    background-color: #d3e5e4;
+}
+.recent-jobs {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+.recent-jobs h2 {
+    font-size: 24px;
+    color: #333;
+}
+.job-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.job-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.job-item h3 {
+    font-size: 18px;
+    color: #333;
+}
+.job-item p {
+    font-size: 14px;
+    color: #666;
+}
+.job-item .job-meta {
+    font-size: 12px;
+    color: #999;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer .footer-content div {
+    margin: 10px;
+}
+.footer .footer-content h3 {
+    font-size: 16px;
+    color: #fff;
+}
+.footer .footer-content p {
+    font-size: 14px;
+    color: #ccc;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header img {
+    width: 40%; 
+    height: auto;
+    margin-right: 20px; 
+  }
+  
+  .header > * {
+    flex: 1; 
+  }
